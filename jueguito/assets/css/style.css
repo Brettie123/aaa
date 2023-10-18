@@ -1,0 +1,32 @@
+body{
+    background-image: url(../imagenes/lobby.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#vistaPrincipal{
+    width: 400px;
+    margin-top: 20%;
+    background-color: rgba(144,140,112,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#menu button{
+    
+    color: aliceblue;
+    margin: 10px;
+}
