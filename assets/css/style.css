@@ -5,10 +5,19 @@ body{
     background-attachment: fixed;
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 32%;   
+    width: 500px;
+}
+
 #vistaPrincipal{
     width: 400px;
-    margin-top: 20%;
-    background-color: rgba(144,140,112,0);
+    background-color: rgba(99, 13, 13, 0);
     display: flex;
     justify-content: center;
     align-items: center;
