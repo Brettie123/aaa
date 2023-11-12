@@ -1,18 +1,16 @@
 body{
-    background-image: url(../imagenes/lobby.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: darkslategrey;
 }
 
 #logo{
     display: flex;
     justify-content: center;
     justify-items: center;
-    align-items: center;
-    margin-top: 20%;
-    margin-left: 32%;   
-    width: 500px;
+    align-items: center;   
+    margin-top: -100px;
+    margin-left: 460px;
+    margin-bottom: -180px;
+    width: 600px;
 }
 
 #vistaPrincipal{
@@ -36,6 +34,7 @@ body{
 
 #menu button{
     
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: 10px;
+    font-size: 60px;
 }
